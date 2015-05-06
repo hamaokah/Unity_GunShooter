@@ -969,6 +969,48 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 155fc63ba78118248a24c7c4f1499f43, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1896101844
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1896101846}
+  - 114: {fileID: 1896101845}
+  m_Layer: 0
+  m_Name: Box Generator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1896101845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1896101844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de662572e03a56c4c8eaecc7d925fe70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interval_sec: 1
+  redBoxPrefab: {fileID: 147092, guid: 155fc63ba78118248a24c7c4f1499f43, type: 2}
+  blueBoxPrefab: {fileID: 139002, guid: 4da41f11e2a7fd8408c3c81593893d07, type: 2}
+--- !u!4 &1896101846
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1896101844}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.46000004, y: 17.7800007, z: 7.4000001}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
 --- !u!1 &1902997493
 GameObject:
   m_ObjectHideFlags: 0
