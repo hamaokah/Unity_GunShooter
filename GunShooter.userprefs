@@ -1,8 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Box\Box.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Box\BoxGenerator.js">
     <Files>
-      <File FileName="Assets\Box\Box.js" Line="14" Column="54" />
+      <File FileName="Assets\Box\BoxGenerator.js" Line="26" Column="63" />
+      <File FileName="Assets\Box\Box.js" Line="1" Column="1" />
       <File FileName="Assets\Gun\Gun.js" Line="1" Column="1" />
       <File FileName="Assets\Gun\Bullet.js" Line="1" Column="1" />
     </Files>

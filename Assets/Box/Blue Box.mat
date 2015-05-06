@@ -84,6 +84,10 @@ Material:
         second: .5
       data:
         first:
+          name: PixelSnap
+        second: 0
+      data:
+        first:
           name: _SrcBlend
         second: 1
       data:
@@ -129,7 +133,7 @@ Material:
       data:
         first:
           name: _Metallic
-        second: 0
+        second: .239999995
     m_Colors:
       data:
         first:
@@ -138,8 +142,12 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: .218306243, g: 0, b: .904411793, a: 1}
+        second: {r: .198529422, g: .668357015, b: 1, a: 1}
       data:
         first:
           name: _EmissionColorUI
         second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _EmisColor
+        second: {r: .200000003, g: .200000003, b: .200000003, a: 0}
