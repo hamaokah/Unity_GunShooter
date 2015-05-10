@@ -19,7 +19,7 @@ function Update() {
 	if (timer < 0.0) {
 		// 位置と姿勢にランダム成分を与えつつ、箱のプレハブをインスタンス化する
 		var offsx : float = Random.Range(-8.0, 8.0);
-		var offsz : float = Random.Range(-2.0, 2.0);
+		var offsz : float = Random.Range(-4.0, 4.0);
 		var position : Vector3 = transform.position + Vector3(offsx, 0, offsz);
 		
 		// いずれかの箱のプレハブをインスタンス化する
